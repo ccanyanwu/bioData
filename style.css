@@ -166,3 +166,10 @@ button{
 .nnamdi{
   margin-top: -.3rem;
 }
+
+@media all and (max-width :560px){
+    body {
+        display: grid ;
+        grid-template-columns :1fr;
+    }
+}
