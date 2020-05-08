@@ -6,6 +6,7 @@
 
 body{
     display: flex;
+    padding :1rem ;
 }
 
 .contact_details i, .skills_details, .interests_details{
