@@ -6,7 +6,7 @@
 
 body{
     display: flex;
-    padding :1rem ;
+    padding :0 0 1rem 1rem ;
 }
 
 .contact_details i, .skills_details, .interests_details{
@@ -103,6 +103,7 @@ li{
 
 h4.internship{
   margin-top: 2.3rem;
+  padding-left: 0;
 }
 .bio-data{
     line-height: 1 !important;
