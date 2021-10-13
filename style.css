@@ -5,12 +5,33 @@
     font-family: 'Lato', sans-serif;
 }
 
-.text-center{text-anchor: center;}
-h1{
-  font-size: 3.5rem;
-  font-weight: 400;
+div.header{border-bottom: 1px solid black;}
+div > h1{
+  font-size: 5rem;
+  font-weight: 300;
 }
-header > small{
-  font-size :0.75rem; 
-  font-weight: 100;
+
+main{
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 18px;
+  grid-row-gap: 0px;
+  padding: 1.5rem 2rem;
+}
+
+div.sect{margin-bottom: 2rem;}
+h2.sub__head{
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin-bottom: 0.75rem;
+}
+/* div.language__level{
+  display: grid;
+  grid-template-columns: 40% 70%;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0.72rem;
+  grid-row-gap: 1px;
+} */
+main > section{
 }
