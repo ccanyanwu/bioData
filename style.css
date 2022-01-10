@@ -5,6 +5,7 @@
 }
 
 body{
+  background-color : #e2e2e2;
     display: flex;
     padding :0 0 1rem 1rem ;
 }
@@ -162,11 +163,10 @@ button{
   border-radius: .30rem
   
 } 
-.second-class{
-  font-weight: bold;
-}
-.nnamdi{
-  margin-top: -.3rem;
+footer{
+  text-align:center ;
+  position :fixed ;
+  bottom: 0%;
 }
 
 @media all and (max-width :560px){
